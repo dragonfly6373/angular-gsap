@@ -1,1 +1,250 @@
 /* You can add global styles to this file, and also import other style files */
+
+a {
+    text-decoration: none;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-bold {
+    color: var(--neutral--800);
+    font-weight: 700;
+}
+
+.text-uppercase {
+    letter-spacing: .06em;
+    text-transform: uppercase;
+}
+
+.text-strikethrough {
+    text-decoration: line-through;
+}
+
+.color-accent-1 {
+    color: var(--accent--primary-1);
+}
+
+.color-secondary-1 {
+    color: var(--secondary--color-1);
+}
+
+.color-secondary-2 {
+    color: var(--secondary--color-2);
+}
+
+.color-neutral-800 {
+    color: var(--neutral--800);
+}
+
+.color-neutral-700 {
+    color: var(--neutral--700);
+}
+
+.color-neutral-600 {
+    color: var(--neutral--600);
+}
+
+.color-neutral-500 {
+    color: var(--neutral--500);
+}
+
+.color-neutral-300 {
+    color: var(--neutral--300);
+}
+
+.color-neutral-200 {
+    color: var(--neutral--200);
+}
+
+.color-neutral-100 {
+    color: var(--neutral--100);
+}
+
+.bg-green-400 {
+    background-color: var(--system--green-400);
+}
+
+.color-green-400 {
+    color: #11845b;
+}
+
+.bg-blue-400 {
+    background-color: var(--system--blue-400);
+}
+
+.color-blue-400 {
+    color: var(--system--blue-400);
+}
+
+.bg-blue-300 {
+    background-color: var(--system--blue-300);
+}
+
+.color-blue-300 {
+    color: var(--system--blue-300);
+}
+
+.bg-blue-200 {
+    background-color: var(--system--blue-200);
+}
+
+.bg-blue-100 {
+    background-color: var(--system--blue-100);
+}
+
+.color-blue-100 {
+    color: var(--system--blue-100);
+}
+
+.color-neutral-400 {
+    color: var(--neutral--400);
+}
+
+.bg-green-300 {
+    background-color: var(--system--green-300);
+}
+
+.color-green-300 {
+    color: var(--system--green-300);
+}
+
+.bg-green-200 {
+    background-color: var(--system--green-200);
+}
+
+.color-green-200 {
+    color: var(--system--green-200);
+}
+
+.color-green-100 {
+    color: var(--system--green-100);
+}
+
+.bg-green-100 {
+    background-color: var(--system--green-100);
+}
+
+.bg-red-400 {
+    background-color: var(--system--red-400);
+}
+
+.color-red-400 {
+    color: var(--system--red-400);
+}
+
+.bg-red-300 {
+    background-color: var(--system--300);
+}
+
+.color-red-300 {
+    color: var(--system--300);
+}
+
+.bg-red-200 {
+    background-color: var(--system--red-200);
+}
+
+.color-red-200 {
+    color: var(--system--red-200);
+}
+
+.bg-red-100 {
+    background-color: var(--system--red-100);
+}
+
+.color-red-100 {
+    color: var(--system--red-100);
+}
+
+.bg-orange-400 {
+    background-color: var(--system--orange-400);
+}
+
+.color-orange-400 {
+    color: var(--system--orange-400);
+}
+
+.bg-orange-300 {
+    background-color: var(--system--orange-300);
+}
+
+.color-orange-300 {
+    color: var(--system--orange-300);
+}
+
+.bg-orange-200 {
+    background-color: var(--system--orange-200);
+}
+
+.color-orange-200 {
+    color: var(--system--orange-200);
+}
+
+.bg-orange-100 {
+    background-color: var(--system--orange-100);
+}
+
+.color-orange-100 {
+    color: var(--system--orange-100);
+}
+.btn {
+    padding: 1em;
+    border-radius: 0.2em;
+
+    &.small {
+        border-radius: 12px;
+        padding: 18px 24px;
+        font-size: 16px;
+        line-height: 1.125em;
+    }
+
+    &.large {
+        padding: 30px 56px;
+        font-size: 20px;
+    }
+}
+
+.btn-primary {
+    border: 1px solid var(--accent--primary-1);
+    background-color: var(--accent--primary-1);
+    color: var(--neutral--100);
+    text-align: center;
+    border-radius: 16px;
+    justify-content: center;
+    padding: 26px 38px;
+    font-weight: 700;
+    line-height: 1.111em;
+    text-decoration: none;
+    transition: color .3s, background-color .3s, border-color .3s;
+    &:hover {
+        border-color: var(--secondary--color-1);
+        background-color: var(--secondary--color-1);
+        color: var(--neutral--100);
+    }
+}
+
+.btn-secondary {
+    border: 1px solid var(--neutral--300);
+    background-color: var(--neutral--100);
+    box-shadow: 0 2px 6px 0 var(--button-shadow--white-01);
+    color: var(--neutral--800);
+    text-align: center;
+    border-radius: 16px;
+    padding: 26px 38px;
+    font-weight: 500;
+    line-height: 1.111em;
+    transition: border-color .3s, background-color .3s, color .3s;
+
+    &:hover {
+        border-color: var(--accent--primary-1);
+        background-color: var(--accent--primary-1);
+        color: var(--neutral--100);
+    }
+}
+
+.rounded {
+    border-radius: 24px;
+    overflow: hidden;
+}
