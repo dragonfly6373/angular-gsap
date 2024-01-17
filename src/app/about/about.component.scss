@@ -51,6 +51,36 @@
     }
 }
 
+.about-stoy {
+    display: flex;
+    align-items: center;
+    > * {
+        flex: 1 1 50%;
+    }
+    .inner-container {
+        margin-left: 55px;
+    }
+}
+
+.about-mission {
+    display: flex;
+    align-items: center;
+    > * {
+        flex: 1 1 50%;
+    }
+}
+
+.about-journey {
+    display: flex;
+    > * {
+        flex: 1 1 50%;
+    }
+    .position-sticky {
+        position: sticky;
+        top: 160px;
+    }
+}
+
 .inner-container {
     :not(:first-child) {
         margin-top: 40px;

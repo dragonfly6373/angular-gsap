@@ -10,11 +10,13 @@
     .download-app {
         display: flex;
         align-items: center;
+        justify-content: flex-end;
         :not(:first-child) {
             margin-left: 26px;
         }
     }
 }
+
 .footer-middle {
     display: flex;
     padding-top: 100px;
@@ -31,13 +33,33 @@
                 flex: 1 1 50%;
                 display: flex;
                 align-items: center;
+                margin-bottom: 24px;
+            }
+            .country-available {
+                margin-left: 18px;
             }
         }
     }
 }
+
 .footer-bottom {
     border-top: 1px solid var(--neutral--300);
     text-align: center;
     padding-top: 32px;
     padding-bottom: 32px;
+}
+
+.nav-menu-list-main-wrapper {
+    display: flex;
+}
+
+.menu-nav-link {
+    color: var(--neutral--800);
+    padding: 0;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.125em;
+    &:hover {
+        color: var(--accent--primary-1);
+    }
 }

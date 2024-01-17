@@ -22,11 +22,17 @@ main {
     z-index: 1000;
 }
 
+.footer-wrapper,
 .content-wrapper {
     max-width: 1270px;
     padding-left: 24px;
     padding-right: 24px;
     margin: auto;
+}
+
+.footer-wrapper {
+    border-top: 1px solid var(--neutral--400);
+    background-color: var(--neutral--100);
 }
 
 @media screen and (max-width: 650px) {

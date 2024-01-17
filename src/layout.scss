@@ -12,7 +12,17 @@ html {
 }
 
 body {
+  width: 100vw;
+  overflow-x: hidden;
   color: var(--neutral--600);
+}
+
+a {
+  color: var(--neutral--600);
+}
+
+ul {
+  list-style: none;
 }
 
 :host {
@@ -100,3 +110,4 @@ h6 {
   font-weight: 700;
   line-height: 1.375em;
 }
+

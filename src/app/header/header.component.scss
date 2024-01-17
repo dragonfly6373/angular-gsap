@@ -50,9 +50,21 @@
         }
     }
 }
+
 .cart {
     margin-left: 13px;
+    .header-nav-link {
+        color: var(--neutral--800);
+        padding: 0;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 1.125em;
+        &:hover {
+            color: var(--accent--primary-1);
+        }
+    }
 }
+
 .header-button {
     margin-left: 32px;
     .btn:not(:first-child) {
